@@ -1,0 +1,7 @@
+rename dockerfile.txt dockerfile
+docker build -t python313-kad .
+docker run
+docker login
+docker tag python313-[user name]/python313-kad
+docker push [user name]/python313-kad
+docker run python313-kad
